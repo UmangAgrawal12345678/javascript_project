@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Basic Javascript Project</title>
+	<script type="text/javascript" src="basic.js"></script>
+	<script type="text/javascript" src="myphoto.js"></script>
+</head>
+<body>
+	<div id="container" onclick="addpara()">
+		<h1 id='name'>Hey Hi what is your name</h1>
+
+	</div>
+	<div id="number">
+		<input type="text" name="num1" value="1" id="num1">
+		<input type="text" name="num2" value="2" id="num2">
+	</div>
+	<div id="operator">
+		<button class ='btnclass' onclick="Add(Result)">Add</button>
+		<button class="btnclass" onclick="Sub(Result)">Sub</button>
+		<button class = 'btnclass' onclick="Mul(Result)">Mul</button>
+		<button class = 'btnclass' onclick="Div(Result)">Div</button>
+	</div>
+	<select onchange="selectoperator(Result)" id="select1">
+  		<option value="Add">Add</option>
+  		<option value="Sub">Sub</option>
+ 	    <option value="Mul">Muk</option>
+        <option value="Div">Div</option>
+	</select>
+	<div id='result' onclick="back()">
+		
+	</div>
+	<div id="myphoto" onclick="forward()">
+		<img src="70879654.jpg">		
+	</div>
+</body>
+</html>
