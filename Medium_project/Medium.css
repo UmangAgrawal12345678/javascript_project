@@ -1,0 +1,11 @@
+.navbar{
+	display: inline-block;
+	border:1px solid green;
+	border-radius: 12px;
+	background-color: rgb(255,0,255);
+	padding: 10px;
+}
+
+.navbar:hover{
+	background-color: blue;
+}
