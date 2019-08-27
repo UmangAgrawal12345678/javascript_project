@@ -1,0 +1,20 @@
+let str1 = 'My name is Umang Agrawal.  ';
+let str2 = str1.substr(12,12);
+let str3 = str1.slice(3,9);
+let str4 = str1.substring(5,19);
+let str5 = str1.replace(/is/,'are');
+let str6 = str1.lastIndexOf('i',2);
+let str7 = str1.charCodeAt(5);
+let str8 = String.fromCharCode(1,2,3,4,5);
+let str9 = str1.indexOf('U');
+let str10 = str1.startsWith('My');
+let str11 = str1.endsWith('al');
+let str12 = str1.concat('and','I','am','the','best');
+//let str13 = str1.localCompare(str2);
+let str14 = str1.trim();
+let str15 = str1.split('a');
+let str16 = str1.normalize('NFC');
+let str17 = str1.search('is');
+let str18 = str1.repeat(5);
+console.log(str1,'\n',str2,'\n',str3,'\n',str4,'\n',str5,'\n',str6,'\n',str7,'\n',str8,'\n',str9,'\n',
+	str10,'\n',str11,'\n',str12,str14,str15,str16,str17,str18);
